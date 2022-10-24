@@ -1,0 +1,104 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+{
+      double x, y, m, n, j, k,f,t,h,g,s,d,z,v,jm,jk,th,nam,my;
+      
+        Console.WriteLine("Escribe El maximo de firmas");
+    x=double.Parse(Console.ReadLine());
+    Console.WriteLine("Escribe tu numero de firmas de firmas");
+    y=double.Parse(Console.ReadLine());
+  m=x*0.8;
+  if(y>=m){
+         Console.WriteLine("---------------CALCULEMOS EL SABER---------------------");
+        Console.WriteLine("Escribe cual es el maximo en el examen 0.0");
+        j=double.Parse(Console.ReadLine());
+        Console.WriteLine("Escribe cuanto sacaste en el examen :3");
+        k=double.Parse(Console.ReadLine());
+        Console.WriteLine("Escribe cuanto vale en el examen :^");
+        f=double.Parse(Console.ReadLine());
+           
+     Console.WriteLine("+++++++++");
+      v= k*f;
+      jm=v/j;
+     Console.WriteLine("Sacaste "+k+" de "+j+" si el examen vale "+f+" entonces tu calificacion es "+jm);
+     Console.WriteLine("---------------CALCULEMOS EL socioafectiva---------------------");
+     Console.WriteLine("Escribe cual es el maximo del socioafectiva 0.0");
+        t=double.Parse(Console.ReadLine());
+        Console.WriteLine("Escribe cuanto sacaste en el socioafectiva :3");
+        h=double.Parse(Console.ReadLine());
+        Console.WriteLine("Escribe cuanto vale en el socioafectiva :^");
+        g=double.Parse(Console.ReadLine());
+        v= h*g;
+      jk=v/t;
+       Console.WriteLine("+++++++++");
+      Console.WriteLine("Sacaste "+h+" de "+t+" si el ser vale "+g+" entonces tu calificacion es "+jk);
+       Console.WriteLine("---------------CALCULEMOS adaptabilidad---------------------");
+     Console.WriteLine("Escribe cual es el maximo del adaptabilidad 0.0");
+        t=double.Parse(Console.ReadLine());
+        Console.WriteLine("Escribe cuanto sacaste en el adaptabilidad :3");
+        h=double.Parse(Console.ReadLine());
+        Console.WriteLine("Escribe cuanto vale en adaptabilidad :^");
+        g=double.Parse(Console.ReadLine());
+        v= h*g;
+      nam=v/t;
+       Console.WriteLine("+++++++++");
+      Console.WriteLine("Sacaste "+h+" de "+t+" si adaptabilidad vale "+g+" entonces tu calificacion es "+nam);
+       Console.WriteLine("---------------CALCULEMOS EL SABERHACER---------------------");
+       Console.WriteLine("Escribe cual es el maximo del saberhacer 0.0");
+        s=double.Parse(Console.ReadLine());
+        Console.WriteLine("Escribe cuanto sacaste en el saberhacer :3");
+        d=double.Parse(Console.ReadLine());
+        Console.WriteLine("Escribe cuanto vale en el saberhacer :^");
+        z=double.Parse(Console.ReadLine());
+        v= d*z;
+      th=v/s;
+       Console.WriteLine("+++++++++");
+       Console.WriteLine("Sacaste "+d+" de "+t+" si el saberhacer vale "+s+" entonces tu calificacion es "+th);
+       my=th+jm+jk;
+       Console.WriteLine("Tu promedio es "+my);
+       
+    }else{
+        Console.WriteLine("Ya reprobaste que le haces? no hiciste examen ._.");
+          Console.WriteLine("Na ta bien saquemos el saber hacer  y ser");
+     Console.WriteLine("---------------CALCULEMOS EL socioafectiva---------------------");
+     Console.WriteLine("Escribe cual es el maximo del socioafectiva 0.0");
+        t=double.Parse(Console.ReadLine());
+        Console.WriteLine("Escribe cuanto sacaste en el socioafectiva :3");
+        h=double.Parse(Console.ReadLine());
+        Console.WriteLine("Escribe cuanto vale en el socioafectiva :^");
+        g=double.Parse(Console.ReadLine());
+        v= h*g;
+      jk=v/t;
+       Console.WriteLine("+++++++++");
+      Console.WriteLine("Sacaste "+h+" de "+t+" si el ser vale "+g+" entonces tu calificacion es "+jk);
+       Console.WriteLine("---------------CALCULEMOS adaptabilidad---------------------");
+     Console.WriteLine("Escribe cual es el maximo del adaptabilidad 0.0");
+        t=double.Parse(Console.ReadLine());
+        Console.WriteLine("Escribe cuanto sacaste en el adaptabilidad :3");
+        h=double.Parse(Console.ReadLine());
+        Console.WriteLine("Escribe cuanto vale en adaptabilidad :^");
+        g=double.Parse(Console.ReadLine());
+        v= h*g;
+      nam=v/t;
+       Console.WriteLine("+++++++++");
+      Console.WriteLine("Sacaste "+h+" de "+t+" si adaptabilidad vale "+g+" entonces tu calificacion es "+nam);
+       Console.WriteLine("---------------CALCULEMOS EL SABERHACER---------------------");
+       Console.WriteLine("Escribe cual es el maximo del saberhacer 0.0");
+        s=double.Parse(Console.ReadLine());
+        Console.WriteLine("Escribe cuanto sacaste en el saberhacer :3");
+        d=double.Parse(Console.ReadLine());
+        Console.WriteLine("Escribe cuanto vale en el saberhacer :^");
+        z=double.Parse(Console.ReadLine());
+        v= d*z;
+      th=v/s;
+       Console.WriteLine("+++++++++");
+       Console.WriteLine("Sacaste "+d+" de "+t+" si el saberhacer vale "+s+" entonces tu calificacion es "+th);
+       
+       my=th+jk+nm;
+       Console.WriteLine("Tu promedio es "+my);
+    }
+    }
+}
